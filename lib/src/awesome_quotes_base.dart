@@ -24,7 +24,6 @@ var _quotes = [];
 void _loadQuotes() {
   var lines = quotesTxt.split('\n');
 
-
   int currentLineIdx = 0;
   String currentText = '';
   while (currentLineIdx < lines.length) {
@@ -42,6 +41,7 @@ void _loadQuotes() {
   }
 }
 
+/// Gets a random quote in the form of a Quote object, containing a text and an author
 Quote randomQuote() {
 
   if (_quotes.isEmpty) {
