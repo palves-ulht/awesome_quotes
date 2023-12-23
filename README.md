@@ -1,3 +1,5 @@
+[![pub package](https://img.shields.io/pub/v/awesome_quotes.svg)](https://pub.dev/packages/awesome_quotes)
+
 ## Features
 
 Returns a random quote. The quotes are stored locally, no need for connectivity.
