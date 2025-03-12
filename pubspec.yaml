@@ -1,6 +1,6 @@
 name: awesome_quotes
 description: Utilities for getting (local) random quotes.
-version: 0.0.1
+version: 0.0.3
 repository: https://github.com/palves-ulht/awesome_quotes
 
 environment:

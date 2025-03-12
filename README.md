@@ -13,7 +13,7 @@ Get a random quote:
 ```dart
 import 'package:awesome_quotes/awesome_quotes.dart';
 
-final quote = random_quote();
+final quote = randomQuote();
 print('Text: ${quote.text}');
 print('Author: ${quote.author}');
 ```

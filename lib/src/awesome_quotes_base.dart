@@ -30,7 +30,7 @@ void _loadQuotes() {
     var line = lines[currentLineIdx];
     if (line.isNotEmpty) {
       if (!line.startsWith('--')) {
-        currentText += line;
+        currentText += ' $line';
       } else {
         var author = line.replaceFirst('-- ', '');
         _quotes.add(Quote(currentText, author));
